@@ -1,0 +1,8 @@
+# 12/12/24
+cars = ['wrx', '4runner', 'colorado']
+ft_msg = f'I own a {cars[0].title()}.'
+lt_msg = f'Mikey drives a {cars[1].title()}.'
+bonus_msg = f'The {cars[2].title()} needs to go!'
+print(ft_msg)
+print(lt_msg)
+print(bonus_msg)
