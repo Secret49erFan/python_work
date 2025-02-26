@@ -48,7 +48,7 @@ class Restaurant:
         '''Increment the number of customers serverd by a set amount.'''
         self.number_served += covers
 
-#restaurant1 = Restaurant('smith & river', 'american fusion')
+# restaurant1 = Restaurant('smith & river', 'american fusion')
 # restaurant2 = Restaurant('perenn', 'cafe')
 # restaurant3 = Restaurant('olive garden', 'italian')
 # print(restaurant.restaurant_name)
@@ -58,19 +58,19 @@ class Restaurant:
 # restaurant3.describe_restaurant()
 # restaurant.open_restaurant()
 
-#customers_served = restaurant1.number_served # Fetch the current value.
-#print(f'{customers_served}') # Output the value to the console.
+# customers_served = restaurant1.number_served # Fetch the current value.
+# print(f'{customers_served}') # Output the value to the console.
 
-#restaurant1.number_served = 18 # Change the value to 18 directly.
-#customers_served = restaurant1.number_served # Fetch the current value.
-#print(f'{customers_served}') # Output the value to the console.
+# restaurant1.number_served = 18 # Change the value to 18 directly.
+# customers_served = restaurant1.number_served # Fetch the current value.
+# print(f'{customers_served}') # Output the value to the console.
 
-#restaurant1.set_number_served(23) # Change value using the class method.
-#customers_served = restaurant1.number_served # Fetch the current value.
-#print(f'{customers_served}') # Output the value to the console.
-#daily_covers = 87
-#restaurant1.increment_number_served(daily_covers)
-#print(restaurant1.number_served)
+# restaurant1.set_number_served(23) # Change value using the class method.
+# customers_served = restaurant1.number_served # Fetch the current value.
+# print(f'{customers_served}') # Output the value to the console.
+# daily_covers = 87
+# restaurant1.increment_number_served(daily_covers)
+# print(restaurant1.number_served)
 """
 class IceCreamStand(Restaurant):
     '''
@@ -104,6 +104,6 @@ class IceCreamStand(Restaurant):
             print(f'\t{flavor.title()}')
 
 """
-#my_creamery = IceCreamStand('sundae funday', 'creamery')
-#my_creamery.describe_restaurant()
-#my_creamery.display_flavors()
+# my_creamery = IceCreamStand('sundae funday', 'creamery')
+# my_creamery.describe_restaurant()
+# my_creamery.display_flavors()
