@@ -5,7 +5,7 @@ import os
 from pathlib import Path as p # import lib
 print(os.getcwd())
 path = p('python_work/Lesson 10/learning_python.txt') # Specify the relative path
-contents= path.read_text() # reading whole file
+contents = path.read_text() # reading whole file
 print(contents) # Prints the whole file as is.
 print('\n') # Break.
 
