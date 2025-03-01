@@ -5,5 +5,10 @@ import os
 from pathlib import Path as p # import lib
 print(os.getcwd())
 path = p('python_work/Lesson 10/learning_python.txt') # Specify the relative path
-contents = path.read_text() # reading whole file
+contents= path.read_text() # reading whole file
 print(contents)
+print('\n')
+
+lines = contents.splitlines()
+for line in lines:
+    print(line)
